@@ -65,7 +65,7 @@ nav{
 
 .one {
     margin-left: 50px;
-    animation: a 15s linear infinite;
+   
 }
 
 .one img{
@@ -81,10 +81,6 @@ nav{
     animation-play-state: paused;
 }
 
-@keyframes a{
-    0%{transform: translateX(100%);}
-    100%{transform: translateX(-100%);}
-}
 
 .brend {
   margin-top: 50px;
@@ -228,6 +224,7 @@ margin-left: 230PX;
     }
 
     .nav{
+      margin-left: 10px;
       display: flex;
       flex-direction: column;
     }
@@ -245,12 +242,30 @@ margin-left: 230PX;
       margin-left: 10px;
     }
 
-    .one span{
+    .one {
       display: grid;
-      grid-template-columns: repeat(2,1fr);
-      grid-template-rows: repeat(2,1fr);
+      grid-template-rows: repeat(1,1fr);
       gap: 30px;
     }
+
+    
+.one {
+  margin-left: 50px;
+  animation: a 15s linear infinite;
+}
+
+.one img{
+  margin-left: 25px;
+}
+
+.one img:hover{
+  scale: 1.2;
+  transition: 1s;
+}
+
+.one:hover{
+  animation-play-state: paused;
+}
   }
 
 
