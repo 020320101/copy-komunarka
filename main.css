@@ -208,3 +208,50 @@ margin-left: 230PX;
   .newt{
     margin: 10px  0 0 80px;
   }
+
+  @media (max-width:450px) {
+
+    .master{
+      margin:10px 0 0 70px;
+    }
+
+    .logo{
+      margin-left: 150px;
+    }
+
+    .insta{
+      margin-left: 180px;
+    }
+
+    .tt{
+      margin-left: 180px;
+    }
+
+    .nav{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brendi{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(2,1fr);
+      margin-left: 10px;
+    }
+
+    .tovar{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      margin-left: 10px;
+    }
+
+    .one span{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(2,1fr);
+      gap: 30px;
+    }
+  }
+
+
+  
